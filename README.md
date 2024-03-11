@@ -2,6 +2,7 @@
 
 ## Example env.json
 
+```
 {
     "text": "https://www.hello.de/",
     "save_name": "QR-Code_Website-Home",
@@ -24,3 +25,4 @@
         ]
     }
 }
+```
