@@ -1,4 +1,4 @@
-# qr-code-generator# Example env.json
+# qr-code-generator
 
 ## Example env.json
 
