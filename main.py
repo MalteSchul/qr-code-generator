@@ -5,7 +5,7 @@ import os
 with open("./env.json") as f:
     env = json.load(f)
 
-qrcode = segno.make_qr(env["text"], micro=64)
+qrcode = segno.make_qr(env["text"])
 
 for file_name in os.listdir(env["generated_folder_name"]):
     os.remove(os.path.join(env["generated_folder_name"], file_name))
